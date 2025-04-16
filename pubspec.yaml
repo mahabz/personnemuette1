@@ -1,0 +1,43 @@
+name: personnemuette
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^4.2.2
+  cupertino_icons: ^1.0.8
+  http: ^1.3.0
+  shared_preferences: ^2.2.2
+  image: ^4.0.17
+  file_picker: ^5.2.2
+  flutter_sound: ^9.2.13
+  permission_handler: ^10.2.0
+  audio_session: ^0.1.6
+  pie_chart: ^5.1.0
+  bar_chart: ^1.0.0+1
+  fl_chart: ^0.50.1
+
+  # Pour la gestion de la langue
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_gen: ^5.3.1 # ✅ Corrigé ici
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google.png
+    - assets/back2.jpg
+    - assets/back3.jpg
+    - assets/back1.jpg
+    - assets/logo.jpg
